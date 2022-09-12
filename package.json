@@ -17,7 +17,7 @@
     "express": "^4.18.1",
     "helmet": "^6.0.0",
     "mongodb": "^4.9.1",
-    "snyk": "^1.1000.0",
+    "snyk": "^1.1001.0",
     "zombie": "^6.1.4"
   },
   "repository": {
