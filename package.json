@@ -16,7 +16,7 @@
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "helmet": "^7.1.0",
-    "mongodb": "6.5.0",
+    "mongodb": "6.6.0",
     "zombie": "^6.1.4"
   },
   "repository": {
