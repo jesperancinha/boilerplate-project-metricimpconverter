@@ -7,3 +7,6 @@ deps-plugins-update:
 deps-node-update:
 	curl -sL https://raw.githubusercontent.com/jesperancinha/project-signer/master/nodeUpdatesOne.sh | bash
 deps-quick-update: deps-plugins-update deps-node-update
+remove-lock-files:
+	find . -name "package-lock.json" | xargs -I {} rm {}; \
+	find . -name "yarn.lock" | xargs -I {} rm {};
